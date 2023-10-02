@@ -1,7 +1,7 @@
 Feel free to contribute to this project by creating a pull request. We welcome any improvements, bug fixes, or new features.
 
 
-
+The aim is to make it look lik ethis website: trico.beatstars.com
 
 
 This Website is made for someone that has audio to sell to clients.
