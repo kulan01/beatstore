@@ -1,0 +1,29 @@
+[
+  {
+    "song_title": "Lovely Town",
+    "filename":"lovely_town",
+    "song_bpm":"100",
+    "song_tags":["Trap", "Hip Hop", "Dj Foreign"
+, "Migos"],
+    "cover" : "pexels3.jpeg"
+    
+  },
+  {
+    "song_title": "Young Stream",
+    "filename":"stream1",
+    "song_bpm":"124",
+    "song_tags":["Trap", "Hip Hop", "Dj Foreign"
+, "Chris Brown"],
+    "cover" : "pexels5.jpeg"
+    
+  },
+  {
+    "song_title": "Life Style",
+    "filename":"life_style",
+    "song_bpm":"140",
+    "song_tags":["Trap", "Hip Hop", "Dj Foreign"
+, "Tyga"],
+    "cover" : "pixels6.jpeg"
+    
+  }
+]

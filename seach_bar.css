@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+* {
+    outline: none;
+}
+
+.tb {
+    display: table;
+    width: 100%;
+}
+
+.td {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input,
+button {
+    color: #000;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 3px;
+    background-color: transparent;
+    font-family: 'Comfortaa', cursive;
+}
+
+.photo-div {
+    padding-top: 5em;
+    width: 100%;
+    height: 740px;
+    background: url('./cherrypic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-searchbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.searchbar {
+    width: 80%;
+    margin: auto;
+    padding: 4em 0;
+}
+
+.main-searchbar {
+    transform: scale(0.6);
+    font-family: 'Comfortaa';
+    border-radius: 0.8em;
+    background: #fff;
+    border: 0.35em #000 solid;
+}
+
+form {
+    height: 96px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 96px;
+    font-size: 1.7em;
+    line-height: 1;
+    font-family: "Poppins", 'Helvetica', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 2em;
+}
+
+input[type="text"]::placeholder {
+    color: #000;
+    letter-spacing: 2px;
+    padding-left: 0.5em;
+    font-family: "Poppins", 'Helvetica', sans-serif;
+}
+
+#s-cover {
+    width: 1px;
+    padding-left: 35px;
+}
+
+button {
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 3px solid #000;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span {
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 20px;
+    height: 15px;
+    border-width: 15px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before,
+button span:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    width: 23px;
+    height: 3px;
+    background-color: #000;
+    border: -20px solid #000;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle {
+    top: -1px;
+    width: 40px;
+    height: 3px;
+    border-width: 1px;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+#s-cover:hover span {
+    top: 45%;
+    left: 50px;
+    width: 2px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before {
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after {
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+
+#s-cover:hover button span:before,
+#s-cover:hover button span:after {
+    right: -6px;
+    width: 30px;
+}
