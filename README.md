@@ -1,3 +1,9 @@
+Feel free to contribute to this project by creating a pull request. We welcome any improvements, bug fixes, or new features.
+
+
+
+
+
 This Website is made for someone that has audio to sell to clients.
 It has an Admin side and a regular user side.
 The regular user can listen to the audio files and buy the files if they choose to after they make an account. The admin user can add new audio files to sell, they can delete audio files, and they can check which ones have been sold or not. They can also check see how signed up for an account and they can make they admins or regular users and delete the users if they choose to. There is also a blog part to this website where the an admin can put up a post about new music releases.
