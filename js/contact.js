@@ -46,6 +46,25 @@ $email.focus(() =>{
            $email.css('border-color','#ccc'); 
         }
     })
+
+    //With this code, the message field will be validated to ensure it is not empty or contains only whitespace characters.
+    
+    $message.focus(() => {
+        $message.keyup(() => {
+            if (check_message($message.val())) {
+                $message.css('border-color', '#ccc');
+            } else {
+                $message.css('border-color', 'red');
+            }
+        });
+    }).blur(() => {
+        if (check_message($message.val())) {
+            $message.css('border-color', '#ccc');
+        } else {
+            $message.css('border-color', 'red');
+        }
+    });
+
 //$("button[type='submit']").click((event) =>{
 //    let $form = $('#contact form');
 //    let $label = $('<label></label>');
@@ -83,4 +102,8 @@ function check_name(name){
 function isEmail(email) {
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return regex.test(email);
+}
+
+function check_message(message) {
+    return (message.trim() !== ''); // Validate if the message is not empty or contains only whitespace
 }
