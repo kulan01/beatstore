@@ -2,7 +2,6 @@
 
 Welcome to **Beatstore Empire**, a platform designed for selling audio to clients. This project features both user and admin sides, where regular users can listen to audio files, create accounts, and make purchases. On the admin side, administrators can manage audio files, view sales data, and even write blog posts about new music releases.
 
-
 ## 🚀 Technologies Used
 
 - HTML
